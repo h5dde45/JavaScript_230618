@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightgrey;
+}
+.left, .right{
+    float: left;
+    width: 20%;
+    border: 1px solid sienna;
+    padding: 20px;
+    margin: 10px;
+}
+.left{
+    background: darkolivegreen;
+}
+.right{
+    background: lightblue;
+}
