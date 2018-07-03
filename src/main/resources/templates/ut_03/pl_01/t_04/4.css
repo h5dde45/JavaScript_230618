@@ -1,0 +1,13 @@
+.menu-item{
+    border: 2px solid rebeccapurple;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.menu-item .submenu{
+    width: 120px;
+    height: 40px;
+    background: green;
+    position: absolute;
+    cursor: pointer;
+}
