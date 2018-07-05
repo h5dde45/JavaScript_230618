@@ -1,0 +1,53 @@
+.timer {
+    padding: 10px;
+    text-align: center;
+    background: slategray;
+}
+
+.timer-text {
+    font-size: 20px;
+    background: royalblue;
+}
+
+.timer-time {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px;
+    background: tan;
+}
+
+.timer-item {
+    position: relative;
+    display: inline-block;
+    min-width: 75px;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 5px;
+    background: salmon;
+}
+
+.timer-item:after {
+    content: ":";
+    position: absolute;
+    right: -10px;
+    top: 0;
+    display: block;
+    font-size: 20px;
+    background: red;
+}
+
+.timer-item:last-child:after {
+    display: none;
+}
+
+.timer-item span {
+    display: block;
+    font-size: 20px;
+    background: hotpink;
+}
+
+.timer-item__numbers {
+    margin-bottom: 10px;
+    font-weight: bold;
+    background: navajowhite;
+}
