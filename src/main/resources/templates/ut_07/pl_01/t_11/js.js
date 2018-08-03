@@ -1,0 +1,28 @@
+let m = [];
+let m1 = [1, "dsf", 3];
+m1[5] = true;
+// console.log(m1);
+// alert(m1.length);
+
+function masOut() {
+    let p = document.getElementById("out");
+    let str = "";
+
+    for (let i = 0; i < m1.length; i++) {
+        str += i + " => " + m1[i] + "<br>";
+    }
+    p.innerHTML = str;
+}
+
+masOut();
+
+function p1() {
+    let i1 = document.getElementById("i1").value;
+    m1.push(i1);
+    masOut();
+}
+
+function p2() {
+    m1.pop();
+    masOut();
+}

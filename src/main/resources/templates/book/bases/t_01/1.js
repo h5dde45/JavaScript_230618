@@ -1,0 +1,2 @@
+alert("asd");
+alert("qwe");
