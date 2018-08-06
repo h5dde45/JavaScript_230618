@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: cadetblue;
+}
+
+#clock {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    margin: 50px auto;
+    /*border: 1px solid blueviolet;*/
+}
+
+#sec, #min {
+    display: block;
+    position: absolute;
+    /*left: 0px;*/
+    /*transition: all ease 700ms;*/
+}

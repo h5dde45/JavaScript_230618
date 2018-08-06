@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: cadetblue;
+}
+.tabs{
+    width: 600px;
+    /*height: 350px;*/
+    /*background: darkgrey;*/
+    margin: 50px auto;
+    font-family: sans-serif;
+}
+.tabs-header{
+    position: relative;
+    z-index: 1;
+}
+.tab-h{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #8a6d3b;
+    text-align: center;
+}
+.tab-b{
+    display: none ;
+    padding: 20px;
+    border: 1px solid #8a6d3b;
+
+}
+
+.tabs-body{
+    position: relative;
+    top: -1px;
+}
+.active{
+    border-bottom: 1px solid cadetblue;
+}
