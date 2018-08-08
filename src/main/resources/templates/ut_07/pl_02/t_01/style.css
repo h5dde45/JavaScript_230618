@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: Verdana;
+    color: #222;
+}
+body{
+    width: 600px;
+    margin: 30px auto;
+    background: slategray;
+}
+p{
+    margin: 30px 0;
+}
+
+#block1{
+    width: 200px;
+    height: 200px;
+    background: darkgreen;
+    padding: 5px;
+    margin: 10px;
+}
+#block2{
+    width: 350px;
+    height: 180px;
+    background: #8a6d3b;
+    padding: 5px;
+    margin: 10px;
+}
+a:hover{
+    color: red;
+}

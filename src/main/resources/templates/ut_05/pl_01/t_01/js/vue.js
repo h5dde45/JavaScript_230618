@@ -2768,7 +2768,7 @@ function mountComponent (
   /* istanbul ignore if */
   if ("development" !== 'production' && config.performance && mark) {
     updateComponent = function () {
-      var name = vm._name;
+      var name = vm.name;
       var id = vm._uid;
       var startTag = "vue-perf-start:" + id;
       var endTag = "vue-perf-end:" + id;
@@ -4618,9 +4618,9 @@ function initMixin (Vue) {
 
     /* istanbul ignore if */
     if ("development" !== 'production' && config.performance && mark) {
-      vm._name = formatComponentName(vm, false);
+      vm.name = formatComponentName(vm, false);
       mark(endTag);
-      measure(("vue " + (vm._name) + " init"), startTag, endTag);
+      measure(("vue " + (vm.name) + " init"), startTag, endTag);
     }
 
     if (vm.$options.el) {
@@ -10919,7 +10919,7 @@ Vue.prototype.$mount = function (
       /* istanbul ignore if */
       if ("development" !== 'production' && config.performance && mark) {
         mark('compile end');
-        measure(("vue " + (this._name) + " compile"), 'compile', 'compile end');
+        measure(("vue " + (this.name) + " compile"), 'compile', 'compile end');
       }
     }
   }
